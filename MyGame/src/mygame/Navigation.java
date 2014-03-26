@@ -10,13 +10,10 @@ package mygame;
  *
  * @author Jon
  */
-public class MyGame {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
+public class Navigation {
+    public int playerrow;
+    public int playercol;
+   
     
 }
+

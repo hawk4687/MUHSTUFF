@@ -10,13 +10,17 @@ package mygame;
  *
  * @author Jon
  */
-public class MyGame {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public class Segment {
+    private int row;
+    private int col;
+    private boolean player;
+    private Tile[][] segment = new Tile[9][9];
+    
+    public Segment(int Row, int Col){
+        row = Row;
+        col = Col;
         
     }
+    
     
 }
